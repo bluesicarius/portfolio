@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+}
+html,body{
+	font-family: 'BebasNeueRegular', Bebas Neue;
+	font-size: 14px;
+	font-weight: normal;
+	height: 100%;
+	background: url(images/me.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.header{
+	padding: 15px 35px;
+	display: inline-block;
+	width: 100%;
+}
+img{
+	max-width: 100%;
+}
+.menu{
+
+	float: right;
+}
+.menu ul li{
+	display: inline-block;
+	float: left;
+	line-height: 28px;
+	margin-top: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 24px;
+	padding: 5px 20px;
+	letter-spacing: 5px;
+}
+.menu ul li a:hover{
+	color: #777c1d;
+}
+.name{
+	width: 350px;
+	margin-top: 240px;
+	text-align: right;
+	margin-left: 15px;
+}
+.name h5{
+	color: #777c1d;
+	font-size: 20px;
+	letter-spacing: 7px;
+}
+.name h1{
+	color: #182a25;
+	font-size: 100px;
+	line-height: 88px;
+	letter-spacing: 5px;
+}
