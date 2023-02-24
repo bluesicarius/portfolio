@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #303030;
+	text-align: center;
+	background-size: cover;
+	font-family: 'BebasNeueRegular', Bebas Neue;
+	height: 100%;
+	background-attachment: fixed;
+}
+.header{
+	padding: 15px 35px;
+	display: inline-block;
+	width: 100%;
+}
+img{
+	max-width: 100%;
+}
+.menu{
+	float: right;
+}
+.menu ul li{
+	display: inline-block;
+	float: left;
+	line-height: 28px;
+	margin-top: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #f4f4f4;
+	font-size: 24px;
+	padding: 5px 20px;
+	letter-spacing: 5px;
+}
+.menu ul li a:hover{
+	color: #777c1d;
+}
+.wrap{
+  margin: 5%;
+}
+.image{
+  width: 100%;
+}
+
+.aboutme{
+  font-family: 'Inconsolata', monospace;
+  color: #f4f4f4;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.network {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: fadein 6s;
+          animation: fadein 6s;
+  margin-top: auto; }
+  .network ul {
+    -webkit-animation: fadein 6s;
+            animation: fadein 6s;
+    margin-top: auto; }
+    .network ul li {
+      display: inline-block;
+      }
+      .network ul li a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer; }
+        .network ul li a .svg-icon {
+          padding: 4px;
+          width: 25px;
+          height: 25px;
+          margin: 0;
+          display: block; }
+        .network ul li a .svg-icon path,
+        .network ul li a .svg-icon polygon,
+        .network ul li a .svg-icon rect {
+          fill: #999999;
+          transition: 1s; }
+        .network ul li a .svg-icon circle {
+          stroke: #999999;
+          stroke-width: 1; }
+      .network ul li a:hover .svg-icon path,
+      .network ul li a:hover .svg-icon polygon,
+      .network ul li a:hover .svg-icon rect {
+        fill: #FFFFFF;
+        transition: 0.1s; }
